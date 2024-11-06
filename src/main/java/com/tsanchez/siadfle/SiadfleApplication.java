@@ -9,7 +9,6 @@ public class SiadfleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SiadfleApplication.class, args);
-		System.out.print("Test commit");
 	}
 
 }
