@@ -1,0 +1,5 @@
+--- Levantar contenedor docker de BD
+
+sudo docker run -p 3310:3306 -d --name mysql-server --network spring -e MYSQL_ROOT_PASSWORD=dearmando -e MYSQL_USER=user_dev -e MYSQL_PASSWORD=user_dev -e MYSQL_DATABASE=siadfle mysql:8
+
+
